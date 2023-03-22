@@ -42,12 +42,12 @@ function getCar(brand: CarBrand, year: number): Car {
                 year,
                 conditioner: true,
             };
-        case 'Toyota':
-            return {
-                brand,
-                year,
-                climateControl: true,
-            }
+        // case 'Toyota':
+        //     return {
+        //         brand,
+        //         year,
+        //         climateControl: true,
+        //     }
         default: {
              exhaustiveCheck(brand);
         }
